@@ -24,12 +24,13 @@ public class Program2 {
 
     public static void main(String[] args) {
 
-
+        int a ;
         // print number from 1 to 10
-        for(int i = 1; i <= 10; i++ ){
+        for( a = 1; a <= 10; a++ ){
 
-           // System.out.println(i);
+            System.out.println(a);
         }
+        System.out.println(a);
 
 
         for(int i = 1; i <= 10; ){

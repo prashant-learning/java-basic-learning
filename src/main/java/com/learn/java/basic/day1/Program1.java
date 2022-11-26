@@ -33,6 +33,8 @@ public class Program1 {
          */
 
 
+
+
         int marksMath = 89;
         int marksEnglish = 78;
 
