@@ -1,6 +1,4 @@
-package com.learn.java.basic.day1;
-
-import java.util.Random;
+package com.learn.java.basic.day1_6;
 
 public class Program6 {
 

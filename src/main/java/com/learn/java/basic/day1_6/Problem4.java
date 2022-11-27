@@ -1,6 +1,5 @@
-package com.learn.java.basic.day1;
+package com.learn.java.basic.day1_6;
 
-import java.math.BigInteger;
 import java.util.Scanner;
 
 

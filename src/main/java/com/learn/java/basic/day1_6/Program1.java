@@ -1,4 +1,4 @@
-package com.learn.java.basic.day1;
+package com.learn.java.basic.day1_6;
 
 public class Program1 {
 
