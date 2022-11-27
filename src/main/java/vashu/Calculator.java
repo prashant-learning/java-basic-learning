@@ -6,6 +6,14 @@ package vashu;
 // method
 
 
+/**
+ *
+ * Implement the remaining operations
+ *
+ *
+ */
+
+
 import java.util.Scanner;
 
 public class Calculator {
@@ -14,18 +22,49 @@ public class Calculator {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter next operation +  -  *  /  %");
+        while (true) {
 
-        char[] validOperations = {'+', '-', '*', '/', '%'};
+            System.out.println("Enter next operation +  -  *  /  %");
 
-        String operation = scanner.next();
+            char[] validOperations = {'+', '-', '*', '/', '%'};
 
-        if(checkIfCharPresentInGivenArray(operation.charAt(0), validOperations)){
+            String operation = scanner.next();
 
-            System.out.println("User have given a valid operation");
+            if(operation.equals("stop")){
+                break;
+            }
 
-        } else {
-            System.out.println("User have entered a invalid option to perform");
+            int firstNum, secondNum;
+
+            char operationTOBePerformed = operation.charAt(0);
+
+            if (checkIfCharPresentInGivenArray(operationTOBePerformed, validOperations)) {
+
+                System.out.println("User have given a valid operation");
+
+                switch (operationTOBePerformed) {
+                    case '+':
+                        System.out.println("Enter first number");
+                        firstNum = scanner.nextInt();
+                        System.out.println("Enter 2nd number");
+                        secondNum = scanner.nextInt();
+                        int sum = add(firstNum, secondNum);
+                        System.out.println("sum of 2 number is " + sum);
+                        break;
+                    default:
+                        System.out.println("Enter first number");
+                        firstNum = scanner.nextInt();
+                        System.out.println("Enter 2nd number");
+                        secondNum = scanner.nextInt();
+                        int rem = remd(firstNum, secondNum);
+                        System.out.println(" Reminder of 2 number is " + rem);
+
+                }
+
+
+            } else {
+                System.out.println("User have entered a invalid option to perform");
+            }
         }
     }
 
@@ -43,5 +82,13 @@ public class Calculator {
             }
         }
         return false;
+    }
+
+    public static int add(int firstNum, int secondNum){
+        return firstNum + secondNum;
+    }
+
+    public static int remd(int firstNum, int secondNum){
+        return firstNum % secondNum;
     }
 }

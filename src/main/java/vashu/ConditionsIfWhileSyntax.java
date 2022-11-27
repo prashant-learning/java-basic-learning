@@ -28,6 +28,19 @@ public class ConditionsIfWhileSyntax {
 
         System.out.println("enter the operation you want to perform");
 
+
+        // ==    str1.equals(str2)
+
+
+
+        String abc = "vashu";
+        String xyz = "vashu";
+
+        System.out.println(abc.charAt(3));
+        System.out.println(abc.equals(xyz));
+
+
+
         while (true){
 
             String operation = scanner.next();
