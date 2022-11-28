@@ -1,6 +1,6 @@
 package com.learn.java.basic.day7;
 
-public class HpLaptop implements Computer{
+public abstract class HpLaptop implements Computer{
 
     @Override
     public int getRamSize(){
@@ -11,9 +11,4 @@ public class HpLaptop implements Computer{
         return 16;
     }
 
-
-    @Override
-    public int getHDDSize(){
-        return 500;
-    }
 }

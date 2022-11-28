@@ -8,7 +8,8 @@ public class AcerLaptop implements Computer{
     }
 
     @Override
-    public int getHDDSize(){
+    public int getHDDSize() {
         return 250;
     }
+
 }
