@@ -11,4 +11,8 @@ public abstract class HpLaptop implements Computer{
         return 16;
     }
 
+    public String getMyCompanyName(){
+        return "OLD HP LAPTOP";
+    }
+
 }
