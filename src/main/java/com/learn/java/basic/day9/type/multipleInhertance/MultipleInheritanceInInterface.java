@@ -6,4 +6,16 @@ public  class MultipleInheritanceInInterface implements A, B{
     public void method1() {
 
     }
+
+    @Override
+    public int method3() {
+        return 0;
+    }
+
+    @Override
+    public void method2() {
+
+    }
+
+
 }
