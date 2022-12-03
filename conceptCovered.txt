@@ -1,0 +1,11 @@
+1. Basics of data types in java
+2. Loops (for, while, do while) ,if else, switch  -> all of this can be nested
+3. Array
+4. method
+5. Interface
+6. inheritance
+7. super, this keyword
+8. polymorphism, overloading and overriding
+9. abstractions
+10. class and constructor
+11. getter and setter
