@@ -5,7 +5,12 @@
 5. Interface
 6. inheritance
 7. super, this keyword
-8. polymorphism, overloading and overriding
-9. abstractions
+8. polymorphism, overloading and overriding   -> Run time and compile time is confusing for Vashu
+9. abstractions    -> for Vashu
 10. class and constructor
 11. getter and setter
+12. abstract class and difference between abstract class and Interface
+
+
+13. Exception
+14. Advance of exceptions
