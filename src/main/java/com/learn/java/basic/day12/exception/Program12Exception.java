@@ -62,6 +62,14 @@ import java.io.IOException;
  *                                                                     that mouliExpection or not else it will say this exception is not thrown from code
  * 																	inside try block
  *
+ *    1. How to write try catch in java
+ *    2. Divide the number and catch Arithmetic exception
+ *    3. Print the code in finally to show its always running if exception occurred  runTime
+ *    4. Need to read a file and catch the exception    compile time
+ *    5. Create a array of size 5 and try to set value for index 10 and then catch the exception ArrayIndexOutOfBoundsException
+ *
+ *
+ *   6. Create a custom compile time and runtime exception
  *
  */
 
