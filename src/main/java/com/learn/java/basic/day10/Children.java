@@ -15,10 +15,14 @@ public class Children extends Father {
         if(myAge > 18){
            int accountDetails = super.getBankAccountDetails();
 
-            System.out.println(accountDetails);
+            //System.out.println(accountDetails);
         }
 
         return myAge;
+    }
+
+    public int getGrandParentAccountDetails(){
+       return super.getParentAccountDetails();
     }
 
 }

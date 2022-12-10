@@ -8,7 +8,9 @@ public class Program10 {
 
         Children children = new Children();
 
-        System.out.println(children.giveAge());
+        //System.out.println(children.giveAge());
+
+        System.out.println(children.getGrandParentAccountDetails());
     }
 
 }

@@ -18,9 +18,16 @@ public class Father extends GrandFather{
 
         int ancestorMoney =  super.getBankAccountDetails();
 
-        System.out.println(ancestorMoney);
+       // System.out.println(ancestorMoney);
         return 2432342;
     }
+
+
+    public int getParentAccountDetails(){
+        return super.getBankAccountDetails();
+    }
+
+
 
 
 }
