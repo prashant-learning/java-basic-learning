@@ -1,5 +1,7 @@
 package com.learn.java.basic.day14;
 
+import com.learn.java.basic.day14.exception.CollegeNotFoundException;
+
 public class Student {
 
     public void getStudentAndCollegeGrade(String studentName, String collegeName) throws StudentNoFoundException, CollegeNotFoundException {

@@ -1,5 +1,8 @@
 package com.learn.java.basic.day14;
 
+
+import com.learn.java.basic.day14.exception.CollegeNotFoundException;
+
 public class College {
 
     /**
