@@ -10,9 +10,7 @@
 10. class and constructor
 11. getter and setter
 12. abstract class and difference between abstract class and Interface
-
-
 13. Exception
-
-
-14. Advance of exceptions  ->
+14. Advance of exceptions
+15. Enum
+16. String
