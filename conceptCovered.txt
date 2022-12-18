@@ -13,4 +13,5 @@
 13. Exception
 14. Advance of exceptions
 15. Enum
-16. String
+16. String, StringBuilder and StringBuffer
+17. Collections
