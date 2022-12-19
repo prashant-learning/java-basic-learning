@@ -58,13 +58,13 @@ public class Program20 {
 
         System.out.println("***************** Inserting***************** ");
 
-        myList.add(1, 200);
+        myList.add(1, 200);  //  // [100, 200, 300, 400, 500]
         for (int temp : myList) {
             System.out.println(temp);
         }
 
         System.out.println("***************** Updating**********************");
-        myList.set(2, 600);
+        myList.set(2, 600);   // [100, 200, 600, 400, 500]
 
         for (int temp : myList) {
             System.out.println(temp);
@@ -72,7 +72,7 @@ public class Program20 {
 
         System.out.println("*************** Removing ************");
 
-        myList.remove(1);
+        myList.remove(1);  // [100, 600, 400, 500]
 
         for (int temp : myList) {
             System.out.println(temp);
