@@ -19,8 +19,6 @@ import java.util.Queue;
  *       3. PriorityQueue
  *       4. Blocking queue
  *
- *
- *
  *      // vasu -> shankar  -> ravi  -> chandra  -> prashant
  *
  *
