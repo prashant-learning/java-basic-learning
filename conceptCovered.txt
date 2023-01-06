@@ -15,3 +15,43 @@
 15. Enum
 16. String, StringBuilder and StringBuffer
 17. Collections
+18. Thread
+
+
+Revision topics :
+
+1. Enum
+2. Hashmap
+3. Inheritance
+4. LocalDate and LocalDateTime, Date
+
+
+
+
+
+
+
+
+Java 8 concepts : ->
+
+
+Json   ->
+Conversion of java class to json  json  -> java class
+
+                                  java class -> json
+
+Json -> mapped to java object to json and json to java object  -> programmatically
+
+Database concept  ->  Sql / No Sql (Mongo Db)
+
+HTTP methods  REST
+
+Springboot
+     1. Rest controller
+     2. Service
+     3. DAO
+     4. Kafka or Rabbit MQ
+
+Postman
+
+Docker

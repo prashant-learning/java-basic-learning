@@ -3,8 +3,6 @@ package com.learn.java.basic.day28;
 import java.util.concurrent.Callable;
 
 public class RandomGenerator implements Callable {
-
-
     @Override
     public Object call() throws Exception {
 
@@ -13,5 +11,4 @@ public class RandomGenerator implements Callable {
        // Thread.sleep(5000);
         return Math.random();
     }
-
 }
