@@ -23,11 +23,16 @@ Revision topics :
 1. Enum
 2. Hashmap
 3. Inheritance
+4. Super, final
 4. LocalDate and LocalDateTime, Date
 
 
 
+https://gfgc.kar.nic.in/sirmv-science/GenericDocHandler/138-a2973dc6-c024-4d81-be6d-5c3344f232ce.pdf   ->  more basics
 
+
+
+https://www.rcsdk12.org/cms/lib/NY01001156/Centricity/Domain/4951/Head_First_Java_Second_Edition.pdf   -> more interactive
 
 
 
