@@ -21,7 +21,7 @@
 Revision topics :
 
 1. Enum
-2. Hashmap
+2. Hashmap ->
 3. Inheritance
 4. Super, final, this
 4. LocalDate and LocalDateTime, Date
@@ -56,6 +56,7 @@ Springboot
      2. Service
      3. DAO
      4. Kafka or Rabbit MQ
+     5. Use map for create database
 
 Postman
 
