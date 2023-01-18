@@ -71,6 +71,12 @@ public class Program33_1 {
         System.out.println(isWeekend(date2));
 
 
+        System.out.println(date2.minusMonths(1));
+        System.out.println(date2.plusMonths(1));
+
+        System.out.println(date2.plusDays(90));
+
+
 
 
 
